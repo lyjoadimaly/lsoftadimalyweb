@@ -5,54 +5,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LSoft Technologies Adimaly</title>
-    <link rel="icon" href="Images/Logo.png" type="image/icon type">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css"><!-- Customize Style.css-->
+    <link rel="icon" href="Images/Logo.png" type="image/icon type"><!-- Icon -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- /Bootstrap 5.0.2 -->
+
 </head>
 
 <body>
+
+    <!-- Header-->
     <header>
         <div class="bg-info" style="position:fixed; width:100% ; z-index: 1;">
-            <div class="row text-white ">
-                <div class="col-md-4 col-9 p-3 ml-5 ">
-                    <h2>LSoft Technologies</h2>
-                </div>
-                <div class="col-md-6 col-9 ml-auto ">
-                    <nav class="navbar navbar-expand-lg navbar-light ">
-                        <button class="navbar-toggler " type="button " data-toggle="collapse " data-target="#navbarNav " aria-controls="navbarNav " aria-expanded="false " aria-label="Toggle navigation ">
-                      <span class="navbar-toggler-icon "></span>
-                    </button>
-                        <div class="collapse navbar-collapse " id="navbarNav ">
-                            <ul class="navbar-nav ">
-                                <li class="nav-item active  ">
-                                    <a class="nav-link " href="#home-section ">Home<span class="sr-only ">(current)</span></a>
-                                </li>
-                                <li class="nav-item ">
-                                    <a class="nav-link " href="#software-section ">Softwares</a>
-                                </li>
-                                <li class="nav-item ">
-                                    <a class="nav-link " href="#hardware-section ">Hardware</a>
-                                </li>
-                                <li class="nav-item ">
-                                    <a class="nav-link " href="#customer-section ">Customers</a>
-                                </li>
-                                <li class="nav-item ">
-                                    <a class="nav-link " href="gallaryevevents.html">Gallery</a>
-                                </li>
-                                <li class="nav-item ">
-                                    <a class="nav-link " href="#contact-us ">Contact us</a>
-                                </li>
-                            </ul>
+            <div class="row ">
+
+                <div class="col-12 col-md-12 ms-auto p-3">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <div class="container-fluid text-white">
+                            <h2>LSoft Technologies</h2>
+                            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mb-2 mb-lg-0 ms-auto toggle-text">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" aria-current="page" href="#home-section">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#software-section">Softwares</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#hardware-section">Hardware</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#customer-section">Customers</a>
+                                    </li>
+                                    <!--
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">Gallery</a>
+                                    </li>
+                                    -->
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="#contact-us">Contact</a>
+                                    </li>
+
+                                </ul>
+
+                            </div>
                         </div>
                     </nav>
                 </div>
             </div>
         </div>
     </header>
+    <!-- //Header-->
+
+    <!-- Section-1 -->
     <section id="home-section" style="padding-top:6em">
         <div class="container ">
             <div class="row align-items-center ">
                 <div class="col-md-6 p-3 ">
-                    <img src="Images/Lyjo3.jpg" alt=" " class="img-fluid rounded-circle " width=200px height=200px>
+                    <div class="container">
+                        <img src="Images/Lyjo3.jpg" alt=" " class="img-fluid rounded-circle ms-5" width=200px
+                            height=200px>
+                    </div>
+
                 </div>
                 <div class="col-md-6 P-5 ">
                     <h3>LYJO JOSEPH</h3>
@@ -68,9 +89,14 @@
                     <h3 class="text-center">Introduction</h3>
                 </div>
 
-                <p class="text-justify p-3"><span class="badge badge-secondary">W</span>e have pleasure to introduce ourselves as a prominent Computer System/ Computer Accessories Sales / authorized dealer of PALMTEC Hand Held Computer (Field Collection) / Software-developing firm,
-                    bringing the latest office automation solutions and technology. Ours is a team of most skilled engineers armed with latest technologies. It is possible for us to execute your orders with in a stipulated time and can give you quality
-                    service and support. We are all set to provide the best attention to the entire satisfaction of the customers.</p>
+                <p class="text-justify p-3"><span class="badge bg-secondary">W</span>e have pleasure to introduce
+                    ourselves as a prominent Computer System/ Computer Accessories Sales / authorized dealer of PALMTEC
+                    Hand Held Computer (Field Collection) / Software-developing firm,
+                    bringing the latest office automation solutions and technology. Ours is a team of most skilled
+                    engineers armed with latest technologies. It is possible for us to execute your orders with in a
+                    stipulated time and can give you quality
+                    service and support. We are all set to provide the best attention to the entire satisfaction of the
+                    customers.</p>
                 <div class="col-md-6">
                     <h5>We Undertake</h5>
                     <ul>
@@ -90,49 +116,70 @@
 
         </div>
     </section>
+    <!--//Section-1-->
+
+    <!--Section-2-->
     <section class="bg-light p-4 " ; id="software-section">
         <div class="container ">
             <h1 class="text-center text-primary p-4 ">Customised Application Softwares</h1>
             <div class="row ">
-                <div class="col-md-3 ">
-                    <div class="card " style="width: 15em; height:40em ">
-                        <img class="card-img-top img-thumbnail " src="Images/Jewellery.jpg " alt="Card image cap ">
-                        <div class="card-body col text-center ">
+                <div class="col-md-6 col-xl-3 col-12 p-3">
+                    <div class="card m-auto " style="width: 15em; height:auto;" data-city="Jewell">
+                        <img class="card-img-top img-heighter" src="Images/Jewellery.jpg " alt="Card image cap ">
+                        <div class="card-body col text-center">
                             <h5 class="card-title ">GST Jewell</h5>
-                            <p class="card-text ">20+ years experience in Jewellery Management Sales / Purchase / Estimates Preparation. Smith Management. Creditor and scheme . GST Statement and generate online return files. Accounts management</p>
-                            <a href="# " class="btn btn-primary ">More</a>
+                            <p class="card-text">20+ years experience in Jewellery Management Sales / Purchase /
+                                Estimates Preparation.<span class="dots">...</span><span class="more"
+                                    style="display: none;">Smith Management. Creditor
+                                    and scheme . GST Statement and
+                                    generate online return files. Accounts management</span></p>
+                            <button onclick="readMore('Jewell')" class="btn btn-primary myBtn">Read More</button>
+
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 ">
-                    <div class="card " style="width: 15em; height:40em ">
-                        <img class="card-img-top img-thumbnail " src="Images/Inventory.jpg " alt="Card image cap ">
-                        <div class="card-body col text-center ">
+                <div class="col-md-6 col-xl-3 col-12 p-3 ">
+                    <div class="card m-auto " style="width: 15em; height:auto; " data-city="Invent">
+                        <img class="card-img-top img-heighter " src="Images/Inventory.jpg " alt="Card image cap ">
+                        <div class="card-body col text-center">
                             <h5 class="card-title ">GST Invent</h5>
-                            <p class="card-text ">Inventory Application consist of Purchases / Godown management / Stock Transfer / Stock convertion/ Sales / Sales Return / Purchase Return credit note management and much more options with a list of reports. Many satisfied
-                                customers in and around</p>
-                            <a href="# " class="btn btn-primary ">More</a>
+                            <p class="card-text">Inventory Application consist of Purchases / Godown management / Stock
+                                Transfer /<span class="dots">...</span><span class="more" style="display: none;">Stock
+                                    convertion/ Sales /Sales Return /
+                                    Purchase Return credit note
+                                    management and much more options with a list of reports. Many satisfied
+                                    customers in and around</span></p>
+                            <button onclick="readMore('Invent')" class="btn btn-primary myBtn">Read More</button>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 ">
-                    <div class="card " style="width: 15em; height:40em ">
-                        <img class="card-img-top img-thumbnail " src="Images/Hospital.jpg " alt="Card image cap ">
+                <div class="col-md-6 col-12 col-xl-3 col p-3">
+                    <div class="card m-auto" style="width: 15em; height:auto;" data-city="Medware">
+                        <img class="card-img-top img-heighter " src="Images/Hospital.jpg " alt="Card image cap ">
                         <div class="card-body col text-center ">
                             <h5 class="card-title ">Medware+</h5>
-                            <p class="card-text ">This is a premium hospital management software with Registration/ Pharmacy/ OP Billing / IP Billing / Store Management/ Lab management with fully automated results , Accounting , Discharging and reimbursement modules</p>
-                            <a href="# " class="btn btn-primary ">More</a>
+                            <p class="card-text ">This is a premium hospital management software with Registration/
+                                Pharmacy/ OP Billing /<span class="dots">...</span><span class="more"
+                                    style="display: none;">IP Billing / Store
+                                    Management/ Lab management with fully
+                                    automated results , Accounting , Discharging and reimbursement modules</span></p>
+                            <button onclick="readMore('Medware')" class="btn btn-primary myBtn">Read More</button>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 ">
-                    <div class="card " style="width: 15em; height:40em ">
-                        <img class="card-img-top img-thumbnail " src="Images/EasyBooks.jpg " alt="Card image cap ">
+                <div class="col-md-6  col-xl-3 col-12  p-3">
+                    <div class="card m-auto" style="width: 15em; height:auto;" data-city="EasyBooks">
+                        <img class="card-img-top img-heighter " src="Images/EasyBooks.jpg " alt="Card image cap ">
                         <div class="card-body col text-center ">
                             <h5 class="card-title ">EasyBooks</h5>
-                            <p class="card-text ">Ledger / Accounting year creation , Daybook Entry in a simple . Multiple firms and accounting years can manage with this software , Veriety of reports like daybook, Personal Ledger, General Ledger, Receipts and Payment , Income
-                                Expense statment, group statements. Lot of customers proudly use this as their accounting solutions</p>
-                            <a href="# " class="btn btn-primary ">More</a>
+                            <p class="card-text ">Ledger / Accounting year creation , Daybook Entry in a simple .
+                                Multiple firms and accounting years can<span class="dots">...</span><span class="more"
+                                    style="display: none;">manage
+                                    with this software , Veriety of reports
+                                    like daybook,Personal Ledger, General Ledger, Receipts and Payment , Income
+                                    Expense statment, group statements. Lot of customers proudly use this as their
+                                    accounting solutions</span></p>
+                            <button onclick="readMore('EasyBooks')" class="btn btn-primary myBtn">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -140,47 +187,68 @@
             </div>
         </div>
     </section>
+    <!-- //Section-2-->
+
+    <!-- Section-3-->
     <section class="bg-light p-4 " ; id="hardware-section" ;style="padding-top:6em">
         <div class="container ">
             <h1 class="text-center text-primary p-4 ">Hardware</h1>
             <div class="row ">
-                <div class="col-md-3 ">
-                    <div class="card " style="width: 15em;height:30em ">
-                        <img class="card-img-top img-thumbnail " src="Images/HWSales.jpg " alt="Card image cap ">
+                <div class="col-md-6 col-xl-3 p-3 ">
+                    <div class="card m-auto " style="width: 15em;height: auto;" data-city="Sales">
+                        <img class="card-img-top img-heighter" src="Images/HWSales.jpg " alt="Card image cap ">
                         <div class="card-body col text-center ">
                             <h5 class="card-title ">Sales</h5>
-                            <p class="card-text ">Computers / Laptop /Printer / Network Components/ Bandwidth Supply/ POS Machines</p>
-                            <a href="# " class="btn btn-primary ">More</a>
+                            <p class="card-text ">Computers / Laptop /Printer / Network Components/ Bandwidth Supply/
+                                POS Machines
+
+                                <!--
+                                <span class="dots"></span><span class="more" style="display: none;"></span>
+                            -->
+                            </p>
+                            <button onclick="readMore('Sales')" class="btn btn-primary myBtn">Read More</button>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 ">
-                    <div class="card " style="width: 15em;height:30em ">
-                        <img class="card-img-top img-thumbnail " src="Images/HWService.jpg " alt="Card image cap ">
+                <div class="col-md-6 col-xl-3 p-3 ">
+                    <div class="card m-auto" style="width: 15em;height: auto;" data-city="Services">
+                        <img class="card-img-top img-heighter" src="Images/HWService.jpg " alt="Card image cap ">
                         <div class="card-body col text-center ">
                             <h5 class="card-title ">Services</h5>
-                            <p class="card-text ">Without improper service team a firm can't go ahead. We works for the entire satisfaction of customers they trust us their service point. We provide quality service for their equipments</p>
-                            <a href="# " class="btn btn-primary ">More</a>
+                            <p class="card-text ">Without improper service team a firm can't go ahead. We works for the
+                                entire satisfaction of<span class="dots">...</span><span class="more"
+                                    style="display: none;">customers they trust us
+                                    their service point. We provide quality
+                                    service for their equipments</span></p>
+                            <button onclick="readMore('Services')" class="btn btn-primary myBtn">Read More</button>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 ">
-                    <div class="card " style="width: 15em;height:30em ">
-                        <img class="card-img-top img-thumbnail " src="Images/TechAssist.jpg " alt="Card image cap ">
+                <div class="col-md-6 col-xl-3 p-3 ">
+                    <div class="card m-auto" style="width: 15em;height: auto;" data-city="Technical Consultancy">
+                        <img class="card-img-top img-heighter " src="Images/TechAssist.jpg " alt="Card image cap ">
                         <div class="card-body col text-center ">
                             <h5 class="card-title ">Technical Consultancy</h5>
-                            <p class="card-text ">We provide technical support and consultancy for all the IT Related matters. Our team consist of most skilled engineers and techincal team. </p>
-                            <a href="# " class="btn btn-primary ">More</a>
+                            <p class="card-text ">We provide technical support and consultancy for all the IT
+                                Related<span class="dots">...</span><span class="more" style="display: none;">
+                                    matters. Our team consist of most skilled engineers and techincal team. </span></p>
+                            <button onclick="readMore('Technical Consultancy')" class="btn btn-primary myBtn">Read
+                                More</button>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 ">
-                    <div class="card " style="width: 15em; height:30em ">
-                        <img class="card-img-top img-thumbnail " src="Images/Dealer.jpg " alt="Card image cap ">
+                <div class="col-md-6 col-xl-3 p-3  ">
+                    <div class="card m-auto" style="width: 15em; height: auto;" data-city="Dealership">
+                        <img class="card-img-top img-heighter " src="Images/Dealer.jpg " alt="Card image cap  ">
                         <div class="card-body col text-center ">
                             <h5 class="card-title ">Dealership</h5>
-                            <p class="card-text ">Delear for handhead portable device for banking / route sales/ bus ticketing / display boards/ thermal priters. We also deal </p>
+                            <p class="card-text ">Delear for handhead portable device for banking / route sales/ bus
+                                ticketing / display<span class="dots">...</span><span class="more"
+                                    style="display: none;">boards/thermal priters. We
+                                    also deal</span></p>
+                            <button onclick="readMore('Dealership')" class="btn btn-primary myBtn">Read More</button>
                             <a href="https://www.softlandindia.co.in/ " class="btn btn-primary ">More</a>
+
                         </div>
                     </div>
                 </div>
@@ -188,13 +256,18 @@
             </div>
         </div>
     </section>
+    <!-- //Section-3 -->
+
+    <!-- Section-4 -->
     <section class="bg-white p-4 " , id="customer-section">
         <div class="container ">
             <h1 class="text-center text-primary p-4 ">Major Customers</h1>
 
         </div>
     </section>
-    <hr>
+    <!-- //Section-4 -->
+
+    <!-- Section-5 -->
     <section class="bg-light p-4 " id="contact-us" style="padding-top:6em">
         <div class="container ">
             <h1 class="text-center text-primary p-4 ">Contact us</h1>
@@ -202,93 +275,129 @@
             <div class="container contact ">
 
                 <div class="row ">
-                    <div class="col-md-3 ">
+                    <div class="col-md-3  col-12 ">
                         <div class="contact-info ">
                             <img src="https://image.ibb.co/kUASdV/contact-image.png " alt="image " />
                             <h2>Contact Us</h2>
                             <h4>We would love to hear from you !</h4>
                         </div>
                     </div>
-                    <div class="col-md-9 ">
+                    <div class="col-md-9  col-12">
                         <div class="contact-form ">
-                            <div class="form-group ">
-                                <label class="control-label col-sm-2 " for="fname ">First Name:</label>
-                                <div class="col-sm-10 ">
-                                    <input type="text " class="form-control " id="fname " placeholder="Enter First Name " name="fname ">
+                            <form action="">
+                                <div class="form-group ">
+                                    <label class="control-label col-sm-2 " for="fname ">First Name:</label>
+                                    <div class="col-sm-10 ">
+                                        <input type="text " class="form-control " id="fname "
+                                            placeholder="Enter First Name " name="fname ">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="form-group ">
-                                <label class="control-label col-sm-2 " for="lname ">Last Name:</label>
-                                <div class="col-sm-10 ">
-                                    <input type="text " class="form-control " id="lname " placeholder="Enter Last Name " name="lname ">
+                                <div class="form-group ">
+                                    <label class="control-label col-sm-2 " for="lname ">Last Name:</label>
+                                    <div class="col-sm-10 ">
+                                        <input type="text " class="form-control " id="lname "
+                                            placeholder="Enter Last Name " name="lname ">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="form-group ">
-                                <label class="control-label col-sm-2 " for="Mobile ">Mobile No:</label>
-                                <div class="col-sm-10 ">
-                                    <input type="text " class="form-control " id="Mobile " placeholder="Enter Mobile Number " name="mobile ">
+                                <div class="form-group ">
+                                    <label class="control-label col-sm-2 " for="Mobile ">Mobile No:</label>
+                                    <div class="col-sm-10 ">
+                                        <input type="text " class="form-control " id="Mobile "
+                                            placeholder="Enter Mobile Number " name="mobile ">
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="form-group ">
-                                <label class="control-label col-sm-2 " for="email ">Email:</label>
-                                <div class="col-sm-10 ">
-                                    <input type="email " class="form-control " id="email " placeholder="Enter email " name="email ">
+                                <div class="form-group ">
+                                    <label class="control-label col-sm-2 " for="email ">Email:</label>
+                                    <div class="col-sm-10 ">
+                                        <input type="email " class="form-control " id="email "
+                                            placeholder="Enter email " name="email ">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="form-group ">
-                                <label class="control-label col-sm-2 " for="comment ">Comment:</label>
-                                <div class="col-sm-10 ">
-                                    <textarea class="form-control " rows="5 " id="comment "></textarea>
+                                <div class="form-group ">
+                                    <label class="control-label col-sm-2 " for="comment ">Comment:</label>
+                                    <div class="col-sm-10 ">
+                                        <textarea class="form-control " rows="5 " id="comment "></textarea>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="form-group ">
-                                <div class="col-sm-offset-2 col-sm-10 ">
-                                    <button type="submit " class="btn btn-dark btn-outline-info ">Submit</button>
+                                <div class="form-group ">
+                                    <div class="col-sm-offset-2 col-sm-10 pt-2">
+                                        <button type="submit" class="btner btn-infos" :hover>Submit</button>
+                                    </div>
                                 </div>
-                            </div>
+
+
+                            </form>
+
                         </div>
                     </div>
                 </div>
                 <hr>
             </div>
-            <div class="row bg-info text-white ">
-                <div class="col-md-4 ">
-                    <h3>Bussiness Address</h3>
-                    <p>LSoft Technologies <br> The Lark <br> Adimaly -685561 <br> Idukki Dist, Kerala<br> INDIA <br>GSTIN: 32AVMPK4667L1Z3</p>
-                </div>
-                <div class="col-md-4 ">
-                    <h4>Contact Address</h4>
-                    <p>LSoft Technologies <br> AGP XV/87(2) <br> Chattupara, Machiplavu P O - 685561 <br> Idukki Dist, Kerala<br>Federal Bank Munnar Branch <br>AC No : 10100200004022 <br>IFSC : FDRL0001010 / MICR CODE : 685049202 </p>
-                </div>
-                <div class="col-md-4">
-                    <div id="map-container-google-2" class="z-depth-1-half map-container mt-2">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1964.5283957849692!2d76.93295254026279!3d10.012167874322607!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa9480bbb4aee7cd6!2sLSoft%20Technologies!5e0!3m2!1sen!2sus!4v1612231002124!5m2!1sen!2sus"
-                            frameborder="0" style="border:2" allowfullscreen></iframe>
+            <div class="container">
+                <div class="row bg-info text-white map_contain-row m-auto">
+                    <div class="col-md-4 col-12 " style="margin-top: 2em;">
+                        <h3>Bussiness Address</h3>
+                        <p>LSoft Technologies <br> The Lark <br> Adimaly -685561 <br> Idukki Dist, Kerala<br> INDIA
+                            <br>GSTIN: 32AVMPK4667L1Z3
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-12" style="margin-top: 2em;">
+                        <h3>Contact Address</h3>
+                        <p>LSoft Technologies <br> AGP XV/87(2) <br> Chattupara, Machiplavu P O - 685561 <br> Idukki
+                            Dist,
+                            Kerala<br>Federal Bank Munnar Branch <br>AC No : 10100200004022 <br>IFSC : FDRL0001010 /
+                            MICR
+                            CODE : 685049202 </p>
+                    </div>
+                    <div class="col-md-4 col-12 pt-3 ">
+                        <div id="map-container-google-2" class="z-depth-1-half map-container">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1964.5283957849692!2d76.93295254026279!3d10.012167874322607!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa9480bbb4aee7cd6!2sLSoft%20Technologies!5e0!3m2!1sen!2sus!4v1612231002124!5m2!1sen!2sus"
+                                frameborder="0" class="map-style" allowfullscreen></iframe>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <footer>
-        <div class="col-12 text-center p-3 ">
-            <h5 class="text-center ">Mobile / Whatsapp : 9447232301 Ph: 04864 224570| em@il:<a href="https://www.google.com">contact.lyjo@gmail.com</a></h5>
 
         </div>
-    </footer>
+    </section>
+    <!-- //Section-5 -->
+
+    <!-- Section-6 -->
+    <section>
+        <div class="col-12 text-center p-3 ">
+            <h5 class="text-center ">Mobile / Whatsapp : 9447232301 Ph: 04864 224570| em@il:<a
+                    href="https://www.google.com">contact.lyjo@gmail.com</a></h5>
+
+        </div>
+    </section>
+    <!-- //Section-6 -->
+
+    <!-- Footer -->
     <footer class="bg-info ">
         <div class="container ">
             <div class="row ">
-                <div class="col-md-12 text-center text-white ">
-                    <p>Copyrights (c) LSoft Technologies 2021 | <a href="http://www.lsoft.in" class="text-white">www.lsoft.in</a> </p>
+                <div class="col-md-12 text-center text-white pt-3">
+                    <p>Copyrights &copy; LSoft Technologies 2021 | <a href="http://www.lsoft.in"
+                            class="text-white">www.lsoft.in</a> </p>
 
                 </div>
             </div>
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js " integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n " crossorigin="anonymous "></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js " integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6 " crossorigin="anonymous "></script>
+    <!-- //Footer -->
+
+
+    <!--BootStrap Bundle.js 5.1.3 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!--//BootStrap Bundle.js 5.1.3 -->
+    <!-- Customize js-->
+    <script src="js/function.js"></script>
+    <!-- //Customize js-->
 </body>
 
 </html>
