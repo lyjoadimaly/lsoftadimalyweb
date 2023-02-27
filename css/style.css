@@ -12,3 +12,24 @@ body {
 }
 
 /*//Header*/
+
+/*Section-2*/
+#more {
+    display: none;
+}
+
+/*repeated*/
+.img-heighter {
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    max-width: 100%;
+    height: 12em;
+}
+
+/*repeated*/
+
+/* //Section-2 */
