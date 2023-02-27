@@ -14,3 +14,21 @@ function readMore(city) {
         moreText.style.display = "inline";
     }
 }
+function sendEmail(){
+    console.log("clicked")
+    Email.send({
+        Host : "smtp.elasticemail.com",
+        Username : "detailssender1@gmail.com",
+        Password : "BA2D38C48A12A6F94B5CBC36287150CEA542",
+        port:2525,
+        From: 'detailssender1@gmail.com',
+        To : 'contact.lyjo@gmail.com',
+        Subject : "New customire details from lsoft web",
+        Body : "Name: "+document.getElementById("fname").value+document.getElementById("lname").value
+        +"<br>Email: "+document.getElementById("email").value
+        +"<br>Mobile: "+document.getElementById("mobile").value
+        +"<br>Comment: "+document.getElementById("comment").value
+    }).then(
+      message => alert("Submit Successfully")
+    );
+}
