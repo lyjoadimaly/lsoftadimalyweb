@@ -116,6 +116,7 @@
         </div>
     </section>
     <!--//Section-1-->
+
     <!--Section-2-->
     <section class="bg-light p-4 " ; id="software-section">
         <div class="container ">
@@ -187,47 +188,65 @@
     </section>
     <!-- //Section-2-->
 
-    <section class="bg-light p-4 " ; id="hardware-section" ;style="padding-top:6em">
+     <!-- Section-3-->
+     <section class="bg-light p-4 " ; id="hardware-section" ;style="padding-top:6em">
         <div class="container ">
             <h1 class="text-center text-primary p-4 ">Hardware</h1>
             <div class="row ">
-                <div class="col-md-3 ">
-                    <div class="card " style="width: 15em;height:30em ">
-                        <img class="card-img-top img-thumbnail " src="Images/HWSales.jpg " alt="Card image cap ">
+                <div class="col-md-6 col-xl-3 p-3 ">
+                    <div class="card m-auto " style="width: 15em;height: auto;" data-city="Sales">
+                        <img class="card-img-top img-heighter" src="Images/HWSales.jpg " alt="Card image cap ">
                         <div class="card-body col text-center ">
                             <h5 class="card-title ">Sales</h5>
-                            <p class="card-text ">Computers / Laptop /Printer / Network Components/ Bandwidth Supply/ POS Machines</p>
-                            <a href="# " class="btn btn-primary ">More</a>
+                            <p class="card-text ">Computers / Laptop /Printer / Network Components/ Bandwidth Supply/
+                                POS Machines
+
+                                <!--
+                                <span class="dots"></span><span class="more" style="display: none;"></span>
+                            -->
+                            </p>
+                            <button onclick="readMore('Sales')" class="btn btn-primary myBtn">Read More</button>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 ">
-                    <div class="card " style="width: 15em;height:30em ">
-                        <img class="card-img-top img-thumbnail " src="Images/HWService.jpg " alt="Card image cap ">
+                <div class="col-md-6 col-xl-3 p-3 ">
+                    <div class="card m-auto" style="width: 15em;height: auto;" data-city="Services">
+                        <img class="card-img-top img-heighter" src="Images/HWService.jpg " alt="Card image cap ">
                         <div class="card-body col text-center ">
                             <h5 class="card-title ">Services</h5>
-                            <p class="card-text ">Without improper service team a firm can't go ahead. We works for the entire satisfaction of customers they trust us their service point. We provide quality service for their equipments</p>
-                            <a href="# " class="btn btn-primary ">More</a>
+                            <p class="card-text ">Without improper service team a firm can't go ahead. We works for the
+                                entire satisfaction of<span class="dots">...</span><span class="more"
+                                    style="display: none;">customers they trust us
+                                    their service point. We provide quality
+                                    service for their equipments</span></p>
+                            <button onclick="readMore('Services')" class="btn btn-primary myBtn">Read More</button>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 ">
-                    <div class="card " style="width: 15em;height:30em ">
-                        <img class="card-img-top img-thumbnail " src="Images/TechAssist.jpg " alt="Card image cap ">
+                <div class="col-md-6 col-xl-3 p-3 ">
+                    <div class="card m-auto" style="width: 15em;height: auto;" data-city="Technical Consultancy">
+                        <img class="card-img-top img-heighter " src="Images/TechAssist.jpg " alt="Card image cap ">
                         <div class="card-body col text-center ">
                             <h5 class="card-title ">Technical Consultancy</h5>
-                            <p class="card-text ">We provide technical support and consultancy for all the IT Related matters. Our team consist of most skilled engineers and techincal team. </p>
-                            <a href="# " class="btn btn-primary ">More</a>
+                            <p class="card-text ">We provide technical support and consultancy for all the IT
+                                Related matters . Our team consist of most<span class="dots">...</span><span class="more" style="display: none;">skilled engineers and techincal team. </span></p>
+                            <button onclick="readMore('Technical Consultancy')" class="btn btn-primary myBtn">Read
+                                More</button>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 ">
-                    <div class="card " style="width: 15em; height:30em ">
-                        <img class="card-img-top img-thumbnail " src="Images/Dealer.jpg " alt="Card image cap ">
+                <div class="col-md-6 col-xl-3 p-3  ">
+                    <div class="card m-auto" style="width: 15em; height: auto;" data-city="Dealership">
+                        <img class="card-img-top img-heighter " src="Images/Dealer.jpg " alt="Card image cap">
                         <div class="card-body col text-center ">
                             <h5 class="card-title ">Dealership</h5>
-                            <p class="card-text ">Delear for handhead portable device for banking / route sales/ bus ticketing / display boards/ thermal priters. We also deal </p>
+                            <p class="card-text ">Delear for handhead portable device for banking / route sales/ bus
+                                ticketing / display<span class="dots">...</span><span class="more"
+                                    style="display: none;">boards/thermal priters. We
+                                    also deal</span></p>
+                            <button onclick="readMore('Dealership')" class="btn btn-primary myBtn">Read More</button>
                             <a href="https://www.softlandindia.co.in/ " class="btn btn-primary ">More</a>
+
                         </div>
                     </div>
                 </div>
@@ -235,6 +254,8 @@
             </div>
         </div>
     </section>
+    <!-- //Section-3 -->
+    
     <section class="bg-white p-4 " , id="customer-section">
         <div class="container ">
             <h1 class="text-center text-primary p-4 ">Major Customers</h1>
