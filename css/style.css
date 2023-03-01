@@ -34,19 +34,18 @@ body {
 
 /* //Section-2 */
 /* Section-5 */
-.map-style {
-    width: 93%;
-    height: 14em;
-    border-radius: 1em;
-    margin-bottom: 7px;
-    margin-left: 0.5em;
-
+.contact-style{
+    background-color: #0dcaf0;
+    border-radius: 15px;
+    width: 90%;
 }
-
-.map_contain-row {
+.map-body{
+    margin-bottom: 0.3em; 
+}
+.map-iframe{
+    border-radius: 12px;
     width: 100%;
-    height: auto;
-    border-radius: 1em;
+    height: 14.2em;
 }
 
 .btn-infos {
